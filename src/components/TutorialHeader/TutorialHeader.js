@@ -18,12 +18,12 @@ import {
 import { Link } from 'react-router-dom';
 
 const TutorialHeader = () => (
-  <Header aria-label="Carbon Tutorial">
+  <Header aria-label="Paper">
     <SkipToContent />
-    <HeaderName element={Link} to="/" prefix="IBM">
-      Carbon Tutorial
+    <HeaderName element={Link} to="/" prefix="WS35">
+      Paper
     </HeaderName>
-    <HeaderNavigation aria-label="Carbon Tutorial">
+    <HeaderNavigation aria-label="Paper">
       <HeaderMenuItem element={Link} to="/repos">
         Repositories
       </HeaderMenuItem>
