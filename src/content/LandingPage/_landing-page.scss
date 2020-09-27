@@ -1,6 +1,10 @@
 @import './mixins.scss';
 @import './overrides.scss';
 
+.bx--btn {
+  border-radius: 2px;
+}
+
 .landing-page__illo {
   max-width: 100%;
 }
